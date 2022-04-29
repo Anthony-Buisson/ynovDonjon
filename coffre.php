@@ -1,5 +1,3 @@
-<?php include "functions.php";
-?>
 <link rel="stylesheet" href="coffre.css">
 
 <div class="coffre">

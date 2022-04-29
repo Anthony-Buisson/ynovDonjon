@@ -5,8 +5,15 @@
 <div id="help-modal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <div id="header-comment" class="header">Mode d'emploi</div> 
-    <div id="content-comment"><?php echo getComment() ?></div>
+    <div id="header-comment" class="header">Mode d'emploi</div>
+      <div id="content-comment">
+          <h2>Mode de fonctionnement</h2>
+          <ul>
+              <li>Saisir identifiant et mot de passe pour s'inscrire, ces identifiants seront automatiquement utilisés dans les headers des requêtes</li>
+              <li>Changer d'étage correspond à changer le port utilisé pour les requêtes</li>
+          </ul>
+      </div>
+      <div id="content-comment"><?php echo getComment() ?></div>
   </div>
 </div>
 
@@ -20,7 +27,7 @@ var btn = document.getElementById("help-button");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }

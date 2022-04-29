@@ -7,9 +7,9 @@
 	background-image: url('./images/coffre.png');
 	background-repeat: no-repeat;
 	background-position: center;
-
-	width: 987px;
-	height: 869px;
+	background-size: contain;
+	width: 25vw;
+	height: 50vh;
 }
 
 .coffre-header {
