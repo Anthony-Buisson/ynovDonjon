@@ -1,23 +1,68 @@
 .top {
-    flex-direction: row;
-    display: flex;
+	flex-direction: row;
+	display: flex;
 }
 h2 {
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
 }
 .left {
-    background-color: darkslategray;
-    flex-direction: column;
+	background-color: darkslategray;
+	flex-direction: column;
 }
 .left > div {
-    padding: 10px;
-    margin: 10px;
-    color: white;
+	padding: 10px;
+	margin: 10px;
+	color: white;
 }
 .right {
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.custom-select {
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+select {
+	appearance: none;
+
+	color: white;
+	background-color: transparent;
+	border: none;
+	padding: 0 1em 0 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+		no-repeat right #ddd;
+	-webkit-appearance: none;
+	background-position-x: 90%;
+}
+
+option {
+	color: black;
+}
+
+.submit-button {
+	padding: 5px;
+	background-color: transparent;
+
+	background-color: #555555; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+
+	border-radius: 5px;
 }
