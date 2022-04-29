@@ -14,14 +14,10 @@
             <p>Saisir identifiant et mot de passe pour s'inscrire, ces identifiants seront automatiquement utilisés dans les headers des requêtes.</p>
             <div class="margin"></div>
             <p>Changer d'étage correspond à changer le port utilisé pour les requêtes.</p>
-          </div>
-      </div>
-      <div class="margin"></div>
-      <div class="content-comment">      
-          <div>
-            <h2>Commentaire</h2>
             <div class="margin"></div>
-            <?php echo getComment() ?>
+            <p>Aidez-vous des instructions pour compléter le chemin de la requête et trouver les trésors.</p>
+            <div class="margin"></div>
+            <p>L'objectif est de trouver les 7 trésors présents dans le coffre.</p>
           </div>
       </div>
   </div>
