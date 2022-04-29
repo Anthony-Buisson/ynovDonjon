@@ -9,26 +9,31 @@
 include "functions.php";
 
 
- ?><form action="index.php" method="GET">
-    <?php include "howto.php"?>
-    <?php include "top.php"?>
-    <?php include "help.php"?>
-    <?php include "coffre.php"?>
+?><form action="index.php" method="GET">
+    <?php include "howto.php" ?>
+    <?php include "top.php" ?>
+    <?php include "help.php" ?>
+    <div class="coffre-note">
+        <?php include "coffre.php" ?>
+        <?php include "note.php" ?>
+    </div>
+
 </form>
+
 </html>
 
 <script>
     function checkPort() {
-        switch(document.getElementById("portForm").value){
+        switch (document.getElementById("portForm").value) {
             case "8000":
                 document.getElementById("port").innerHTML = "141.95.153.155:8000/"
-            break;
+                break;
             case "7259":
                 document.getElementById("port").innerHTML = "141.95.153.155:7259/"
-            break;
+                break;
             default:
                 document.getElementById("port").innerHTML = "141.95.153.155/"
-            break;
+                break;
         }
     }
     checkPort()
@@ -36,7 +41,7 @@ include "functions.php";
     let check = "s"
 
     function enter(value) {
-        if (check == value){
+        if (check == value) {
             document.getElementById("boutonEntree").click
             console.log("dd")
         }
@@ -48,4 +53,3 @@ include "functions.php";
     }
     setFocus()
 </script>
-

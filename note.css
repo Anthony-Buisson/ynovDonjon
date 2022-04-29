@@ -1,0 +1,47 @@
+.coffre-note {
+	display: flex;
+}
+
+.note {
+	display: flex;
+	flex-direction: column;
+}
+
+.response {
+	background-color: beige;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	border-radius: 10px 10px 0 0;
+}
+
+.aide {
+	position: relative;
+
+	background-color: chocolate;
+	border-radius: 0 0 10px 10px;
+}
+
+.aide:hover > .hidden {
+	visibility: visible;
+}
+
+.aide:hover > .aide-info {
+	visibility: hidden;
+}
+
+.hidden {
+	visibility: hidden;
+	padding: 10px;
+}
+
+.aide-info {
+	visibility: visible;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 0);
+	font-weight: bold;
+}
