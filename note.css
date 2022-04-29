@@ -1,5 +1,6 @@
 .coffre-note {
 	display: flex;
+	align-items: center;
 }
 
 .note {
