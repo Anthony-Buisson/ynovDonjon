@@ -17,6 +17,10 @@
 	border-radius: 10px 10px 0 0;
 }
 
+.instruction {
+	padding: 15px;
+}
+
 .aide {
 	position: relative;
 
