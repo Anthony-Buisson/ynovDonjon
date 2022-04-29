@@ -1,8 +1,8 @@
 <div class="top">
     <div class="left">
         <h2>Paramètres</h2>
-        <div>Identifiant : <input name="pseudo" value="<?php echo getPseudo() ?>"></div>
-        <div>Mot de passe : <input name="password" value="<?php echo getPassword() ?>"></div>
+        <div>Identifiant : <input type="text" name="pseudo" value="<?php echo getPseudo() ?>"></div>
+        <div>Mot de passe : <input type="text" name="password" value="<?php echo getPassword() ?>"></div>
         <div>Etage :
             <select name="port" id="portForm" onchange="checkPort()" >
                 <option <?php if(getFloor() == "") {echo "selected";} ?> value="">0</option>

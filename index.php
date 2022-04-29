@@ -4,13 +4,11 @@
 <link rel="stylesheet" href="top.css">
 <link rel="stylesheet" href="help.css">
 <link rel="stylesheet" href="coffre.css">
-<link rel="stylesheet" href="howto.css">
 <?php
 include "functions.php";
 
 
 ?><form action="index.php" method="GET">
-    <?php include "howto.php" ?>
     <?php include "top.php" ?>
     <?php include "help.php" ?>
     <div class="coffre-note">

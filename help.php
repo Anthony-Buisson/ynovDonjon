@@ -5,15 +5,25 @@
 <div id="help-modal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <div id="header-comment" class="header">Mode d'emploi</div>
-      <div id="content-comment">
-          <h2>Mode de fonctionnement</h2>
-          <ul>
-              <li>Saisir identifiant et mot de passe pour s'inscrire, ces identifiants seront automatiquement utilisés dans les headers des requêtes</li>
-              <li>Changer d'étage correspond à changer le port utilisé pour les requêtes</li>
-          </ul>
+    <div id="header-comment" class="header">Mode de fonctionnement</div>
+      <div class="content-comment">
+          <div>
+          <div class="margin"></div>
+            <h2>Mode de fonctionnement</h2>
+            <div class="margin"></div>
+            <p>Saisir identifiant et mot de passe pour s'inscrire, ces identifiants seront automatiquement utilisés dans les headers des requêtes.</p>
+            <div class="margin"></div>
+            <p>Changer d'étage correspond à changer le port utilisé pour les requêtes.</p>
+          </div>
       </div>
-      <div id="content-comment"><?php echo getComment() ?></div>
+      <div class="margin"></div>
+      <div class="content-comment">      
+          <div>
+            <h2>Commentaire</h2>
+            <div class="margin"></div>
+            <?php echo getComment() ?>
+          </div>
+      </div>
   </div>
 </div>
 

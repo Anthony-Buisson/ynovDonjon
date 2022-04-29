@@ -58,7 +58,7 @@
     right: 10px;
   }
 
-  #content-comment {
+  .content-comment {
     padding: 0 4%;
     color:black;
     flex-direction: row;
@@ -68,6 +68,20 @@
     font-size: 25px;
     font-style: italic;
     text-align: center;
+  }
+
+  .content-comment > p {
+      display: block;
+  }
+
+  .content-comment h2 {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .margin {
+    margin: 20px auto;
+    display: flex;
   }
 
   #header-comment {
