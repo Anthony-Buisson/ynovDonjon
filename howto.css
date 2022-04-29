@@ -1,0 +1,13 @@
+.howto {
+    background-color: mediumseagreen;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.howto h2 {
+    font-weight: bold;
+}
+.howto  li {
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
