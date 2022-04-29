@@ -1,5 +1,5 @@
 <div id="content-button">
-    <button id="help-button">Aide</button>
+    <div id="help-button">Aide</div>
 </div>
 
 <div id="help-modal" class="modal">
