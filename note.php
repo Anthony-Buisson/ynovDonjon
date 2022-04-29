@@ -6,7 +6,7 @@
         <div class="header">Instruction :</div>
         <div class="instruction">
             <div id="oldRequest"><?php echo (getRequest()) ?></div>
-            <?php echo (regularGet()); ?>
+            <div class="instruction-data"><?php echo (regularGet()); ?></div>
         </div>
     </div>
 

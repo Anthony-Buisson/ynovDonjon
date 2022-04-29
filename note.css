@@ -6,6 +6,8 @@
 .note {
 	display: flex;
 	flex-direction: column;
+
+	width: 100%;
 }
 
 .response {
@@ -19,6 +21,10 @@
 
 .instruction {
 	padding: 15px;
+}
+
+.instruction-data {
+	margin-top: 10px;
 }
 
 .aide {
