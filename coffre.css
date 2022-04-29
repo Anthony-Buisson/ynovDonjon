@@ -1,0 +1,22 @@
+.coffre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	background-image: url('./images/coffre.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+	width: 987px;
+	height: 869px;
+}
+
+.coffre-header {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.coffre-content {
+	font-size: 25px;
+}
